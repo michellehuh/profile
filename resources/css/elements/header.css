@@ -1,0 +1,20 @@
+header {
+    height: calc(100vh - 35px);
+
+    margin: 0;
+
+    text-align: center;
+}
+
+header .padding {
+    height: calc((100vh - 35px)*.4);
+}
+
+header h1 {
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+header p {
+    margin-top: 0;
+}
