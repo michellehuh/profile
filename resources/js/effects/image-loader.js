@@ -6,11 +6,13 @@ document.addEventListener("scroll", function() {
         var windowHeight = $(window).height();
 
         if (elPosition < windowTop + windowHeight - elHeight) {
+            var i = 0;
             $('.image-loader figure').each(function(el){
                 setTimeout(function(){
                     console.log('load');
                     $('.image-loader figure').eq(el).removeClass('hidden');
-                }, 150 * (el+1));
+                }, (150 * (i)));
+                i++;
             });
         }
     });
