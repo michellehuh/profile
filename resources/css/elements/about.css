@@ -27,3 +27,7 @@
     background-size: 100% 88%;
     background-color: transparent;
 }
+
+#about .padding {
+    height: 10px;
+}
