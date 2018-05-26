@@ -11,7 +11,8 @@ document.addEventListener("scroll", function() {
                 setTimeout(function(){
                     console.log('load');
                     $('.image-loader figure').eq(el).removeClass('hidden');
-                }, (150 * (i)));
+                    $('.image-loader figure').eq(el).addClass('fade-in animation');
+                }, (200 * (i)));
                 i++;
             });
         }
