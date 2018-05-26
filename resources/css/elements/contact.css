@@ -1,0 +1,74 @@
+#contact {
+    background: url(../../img/ubc-icics-side-anab.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    vertical-align: middle;
+}
+
+#contact .card {
+    width: 250px;
+
+    padding: 30px 50px;
+    margin: 20% auto;
+
+    background: #000000;
+
+    transition: .3s ease;
+}
+
+#contact .card:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+#contact .card:hover h1 {
+    background-position: -100% 0;
+}
+
+#contact h1 {
+    display: inline;
+
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #373737 50%);
+    background-size: 200%;
+    background-position: 0 0;
+    color: white;
+
+    transition: .5s ease-in-out;
+    text-transform: uppercase;
+
+    opacity: .95;
+}
+
+#contact h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+#contact small {
+    margin-top: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#contact small a {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+#contact span {
+    display: block;
+    margin-top: 10px;
+    font-weight: 700;
+    color: #373737;
+}
+
+#contact span a {
+    color: white;
+}
+
+#contact .padding {
+    height: calc((100vh - 35px)*.18);
+}
