@@ -1,3 +1,8 @@
+* {/* reset purpose */
+    margin: 0;
+    padding: 0;
+}
+
 html {
     height: 100%;
     background-color: black;
@@ -33,6 +38,10 @@ a:hover {
     background-color: #009dda;
     color: white;
     transition: background-color 0.1s ease;
+}
+
+p {
+    padding: 10px;
 }
 
 .black-border {
