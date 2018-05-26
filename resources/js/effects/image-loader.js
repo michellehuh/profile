@@ -9,7 +9,6 @@ document.addEventListener("scroll", function() {
             var i = 0;
             $('.image-loader figure').each(function(el){
                 setTimeout(function(){
-                    console.log('load');
                     $('.image-loader figure').eq(el).removeClass('hidden');
                     $('.image-loader figure').eq(el).addClass('fade-in animation');
                 }, (200 * (i)));
